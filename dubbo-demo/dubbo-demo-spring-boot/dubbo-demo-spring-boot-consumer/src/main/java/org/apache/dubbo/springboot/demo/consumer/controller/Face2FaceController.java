@@ -28,7 +28,7 @@ public class Face2FaceController {
                 System.out.println("Response: " + v);
             }
         });
-// 早于结果输出
+        // 早于结果输出
         System.out.println("Executed before response return.");
         return "success";
     }
